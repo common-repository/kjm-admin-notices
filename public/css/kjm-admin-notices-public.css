@@ -1,0 +1,167 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.kjm-notice {
+	z-index: 99999;
+	width:100%;
+	background: transparent;
+	padding: 0;
+	transition: all 0.5s ease-in-out;
+	transition-delay: 2s;
+}
+/* absolute */
+.kjm-notice.position-absolute {
+	position: absolute;
+	top: 0;
+}
+body.admin-bar .kjm-notice.position-absolute {
+	margin-top:32px;
+}
+/* relative */
+.kjm-notice.position-relative {
+	position: relative;
+}
+body.admin-bar .kjm-notice.position-relative {
+	margin-top:0px;
+}
+
+.kjm-notice .kjm-content {
+	margin-bottom: 5px;
+}
+.kjm-notice .kjm-content.layout-default {
+	padding: 10px 10px 10px 60px;
+}
+.kjm-notice .kjm-content.layout-post {
+	padding: 30px;
+}
+.kjm-notice .kjm-content p {
+	margin: 0;
+}
+.kjm-notice .kjm-content h3 {
+	padding: 0;
+}
+.kjm-notice .kjm-content a,.kjm-notice .kjm-content a:active {
+	outline: none;
+	color: #555;
+}
+.kjm-notice .kjm-content a:hover,.kjm-notice .kjm-content a:focus {
+	color: #111;
+}
+.kjm-notice .kjm-content.kjm-success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+}
+.kjm-notice .kjm-content.kjm-info {
+	color: #00529B;
+	background-color: #BDE5F8;
+}
+.kjm-notice .kjm-content.kjm-error {
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+.kjm-notice .kjm-content.kjm-warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+}
+.kjm-notice .remove-notice.kjm-button-round {
+	position: absolute;
+	float: right;
+	right: 20px;
+	margin: 11px 0 0 0;
+  line-height: 22px;
+	border: 1px solid;
+	padding: 0;
+	border-radius: 2em;
+	background: white;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	vertical-align: bottom;
+	opacity: 0.4;
+}
+.kjm-notice .remove-notice.kjm-button-round:hover,
+.kjm-notice .remove-notice.kjm-button-round:focus {
+	opacity: 1;
+	text-decoration: none;
+}
+.kjm-notice .kjm-content.no-title.no-metas .remove-notice {
+	margin-top: 0px;
+}
+
+.kjm-notice .kjm-content a.kjm-notice-dismiss,
+.kjm-notice .kjm-content i.date.small {
+	visibility: hidden;
+}
+.kjm-notice .kjm-content:hover a.kjm-notice-dismiss,
+.kjm-notice .kjm-content:hover i.date.small {
+	visibility: visible;
+}
+
+.kjm-notice .kjm-content i.small {
+	font-size: 0.8em;
+	color: #989898;
+	float: right;
+	right: 60px;
+	position: relative;
+}
+.kjm-notice .kjm-content i.small a:visited,
+.kjm-notice .kjm-content i.small a {
+    color: #989898;
+}
+.kjm-notice .kjm-content i.small a:hover {
+    color: #454545;
+}
+
+.kjm-notice a.kjm-notice-dismiss {
+		font-size: 0.8em;
+    float: right;
+    position: relative;
+    right: 60px;
+}
+.kjm-notice a.kjm-notice-dismiss::before {
+    content: "";
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+.kjm-notice .hide-dismiss-button a.kjm-notice-dismiss {
+	right: 10px;
+}
+.kjm-notice .kjm-content.hide-dismiss-button i.small {
+	right: 10px;
+}
+
+@media only screen and (max-width: 782px) {
+
+	/* mobile-specific CSS styles go here */
+	
+	/* absolute */
+	body.admin-bar .kjm-notice.position-absolute {
+		margin-top:46px;
+	}
+	
+	.kjm-notice .kjm-content.layout-default {
+		padding: 10px 10px 10px 10px;
+	}
+	.kjm-notice .kjm-content.layout-other {
+		padding: 10px;
+	}
+}
+
+[dir="rtl"] .kjm-admin-notice button.kjm-notice-dismiss {
+float: left;
+position: relative;
+top: -36px;
+}
+[dir="rtl"] .kjm-admin-notice a.edit-link {
+position: absolute;
+left: 50px;
+right: unset;
+}
+[dir="rtl"] .kjm-admin-notice p i.date {
+margin-right: 0px;
+}

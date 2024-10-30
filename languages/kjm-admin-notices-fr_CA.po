@@ -1,0 +1,675 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KJM Admin Notices 1.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-25 00:14-0400\n"
+"PO-Revision-Date: 2020-04-25 00:18-0400\n"
+"Last-Translator: Marc-Antoine Minville <traductions@kajoom.org>\n"
+"Language-Team: Marc-Antoine Minville <traduction@kajoom.ca>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;esc_attr_e;_x;_n_noop;"
+"esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/vendor\n"
+
+#: admin/class-kjm-admin-notices-admin.php:519
+msgid "Archive"
+msgstr "Archive"
+
+#: admin/class-kjm-admin-notices-admin.php:520
+msgid "Save and keep Archived"
+msgstr "Sauvegarder et garder archivé"
+
+#: admin/class-kjm-admin-notices-admin.php:523
+#: includes/models/strings-settings.php:74
+msgid "Archived Post Status"
+msgstr "Statut de publication archivé"
+
+#: admin/class-kjm-admin-notices-admin.php:524
+msgid ""
+"Allows posts and pages to be archived so you can unpublish content without "
+"having to trash it."
+msgstr ""
+"Permet aux articles et aux pages d'être archivés afin que vous puissiez "
+"annuler la publication de contenu sans avoir à le supprimer."
+
+#: admin/class-kjm-admin-notices-admin.php:589
+msgid "KJM Admin Notices settings saved."
+msgstr "Paramètres des Notices Admin sauvegardés."
+
+#: admin/class-kjm-admin-notices-admin.php:592
+msgid "KJM Admin Notices settings saving failed!."
+msgstr "Sauvegarde des paramètres des Notices Admin a échoué!"
+
+#: admin/class-kjm-admin-notices-admin.php:619
+msgid "Failed security check on KJM Admin Notices Settings save action."
+msgstr ""
+"La vérification de sécurité a échoué lors de l'enregistrement des paramètres "
+"des Notices Admin."
+
+#: admin/class-kjm-admin-notices-admin.php:620
+msgid "Failed security check!"
+msgstr "La vérification de sécurité a échoué !"
+
+#: admin/class-kjm-admin-notices-admin.php:644
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/class-kjm-admin-notices-admin.php:665
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:37
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+#: includes/models/strings-settings.php:11
+msgid "KJM Admin Notices"
+msgstr "Admin Notices"
+
+#: admin/class-kjm-admin-notices-admin.php:667
+msgid "Global Settings"
+msgstr "Paramètres globaux"
+
+#: admin/class-kjm-admin-notices-admin.php:874
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: admin/class-kjm-admin-notices-admin.php:877
+#: public/class-kjm-admin-notices-public.php:269
+msgid "Thanks, Got it."
+msgstr "Merci, j'ai compris!"
+
+#: admin/class-kjm-admin-notices-admin.php:993
+msgid "Stats"
+msgstr "Statistiques"
+
+#: admin/class-kjm-admin-notices-admin.php:1040
+msgid "Sent to"
+msgstr "Envoyé à"
+
+#: admin/class-kjm-admin-notices-admin.php:1040
+msgid "adresse(s)."
+msgstr "adresse(s)."
+
+#: admin/class-kjm-admin-notices-admin.php:1044
+msgid "Not sent"
+msgstr "Pas envoyé"
+
+#: admin/class-kjm-admin-notices-admin.php:1065
+msgid "dissmissed"
+msgstr "fermées"
+
+#: admin/class-kjm-admin-notices-admin.php:1066
+msgid "total views"
+msgstr "vues totales"
+
+#: admin/class-kjm-admin-notices-admin.php:1066
+msgid "from"
+msgstr "de"
+
+#: admin/class-kjm-admin-notices-admin.php:1069
+msgid "views"
+msgstr "vues"
+
+#: admin/class-kjm-admin-notices-admin.php:1172
+msgid "Show Notice To Roles"
+msgstr "Afficher la Notice aux rôles"
+
+#: admin/class-kjm-admin-notices-admin.php:1182
+#: admin/class-kjm-admin-notices-admin.php:1297
+#: includes/models/strings-settings.php:17
+msgid "Send Email"
+msgstr "Envoyer un courriel"
+
+#: admin/class-kjm-admin-notices-admin.php:1192
+msgid "Notice Display"
+msgstr "Affichage de la Notice"
+
+#: admin/class-kjm-admin-notices-admin.php:1201
+msgid "Global Params"
+msgstr "Paramètres globaux"
+
+#: admin/class-kjm-admin-notices-admin.php:1220
+msgid "Debug"
+msgstr "Debug"
+
+#: admin/class-kjm-admin-notices-admin.php:1260
+msgid "All"
+msgstr "Tous"
+
+#: admin/class-kjm-admin-notices-admin.php:1301
+msgid "Send a copy to Admin"
+msgstr "Envoyer une copie à l'admin"
+
+#: admin/class-kjm-admin-notices-admin.php:1306
+msgid "Sent:"
+msgstr "Envoyé :"
+
+#: admin/class-kjm-admin-notices-admin.php:1324
+msgid "Hide Title"
+msgstr "Cacher le titre"
+
+#: admin/class-kjm-admin-notices-admin.php:1328
+msgid "Hide Metas (author and date)"
+msgstr "Cacher les Métas (auteur et date)"
+
+#: admin/class-kjm-admin-notices-admin.php:1332
+msgid "Hide Dismiss Link"
+msgstr "Cacher le lien de rejet"
+
+#: admin/class-kjm-admin-notices-admin.php:1336
+msgid "Hide Dismiss Button"
+msgstr "Cacher le bouton de rejet"
+
+#: admin/class-kjm-admin-notices-admin.php:1339
+msgid "Custom Background Color"
+msgstr "Couleur de fond personnalisée"
+
+#: admin/class-kjm-admin-notices-admin.php:1345
+msgid "Custom Text Color"
+msgstr "Couleur de texte personnalisée"
+
+#: admin/class-kjm-admin-notices-admin.php:1357
+msgid "Show Notice to Frontend"
+msgstr "Afficher la notification en frontend"
+
+#: admin/class-kjm-admin-notices-admin.php:1362
+msgid "Stats:"
+msgstr "Statistiques : "
+
+#: admin/class-kjm-admin-notices-admin.php:1422
+#: admin/class-kjm-admin-notices-admin.php:1728
+msgid "no"
+msgstr "Non"
+
+#: admin/class-kjm-admin-notices-admin.php:1504
+#: admin/class-kjm-admin-notices-admin.php:1525
+msgid "Notice Category Color"
+msgstr "Couleur de la catégorie de notice"
+
+#: admin/class-kjm-admin-notices-admin.php:1504
+#: admin/class-kjm-admin-notices-admin.php:1525
+msgid "(Beta Feature)"
+msgstr "(Fonctionnalité Beta)"
+
+#: admin/class-kjm-admin-notices-admin.php:1506
+msgid "Select primary color for Notice category."
+msgstr "Sélectionner une couleur primaire pour la catégorie de notice."
+
+#: admin/class-kjm-admin-notices-admin.php:1528
+msgid "Edit primary color for Notice category."
+msgstr "Modifier la couleur primaire de la catégorie de notice."
+
+#: admin/class-kjm-admin-notices-admin.php:1565
+#: admin/class-kjm-admin-notices-admin.php:1597
+#: includes/wp-archived-post-status-functions.php:136
+#: includes/wp-archived-post-status-functions.php:177
+msgid "Archived"
+msgstr "Archivé"
+
+#: admin/class-kjm-admin-notices-admin.php:1573
+#, php-format
+msgid "Archived <span class=\"count\">(%s)</span>"
+msgstr "Archivé <span class=\"count\">(%s)</span>"
+
+#: admin/class-kjm-admin-notices-admin.php:1728
+msgid "yes"
+msgstr "oui"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:19
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les droits suffisants pour accéder à cette page."
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:43
+msgid "KJM Admin Notices Settings"
+msgstr "Paramètres des Notices Admin"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:48
+msgid "Manage KJM Admin Notices"
+msgstr "Gérer les Notices Admin"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+msgid "You are using"
+msgstr "Vous utilisez"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+msgid "plugin version"
+msgstr "version du plugin"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:69
+msgid "Save Changes"
+msgstr "Enregistrer les changements"
+
+#: includes/class-kjm-admin-notices-activator.php:36
+#: includes/class-kjm-admin-notices-activator.php:106
+msgid "Sorry,  Plugin requires PHP 5.0 or higher. Please deactivate Plugin."
+msgstr ""
+"Désolé. Ce plugin requiert PHP 5.0 ou plus haut. Merci de désactiver le "
+"plugin."
+
+#: includes/class-kjm-admin-notices-shared.php:269
+#: includes/models/post-type-kjm_notice.php:14
+msgid "Edit Notice"
+msgstr "Modifier la Notice"
+
+#: includes/class-kjm-admin-notices-shared.php:276
+#, php-format
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: includes/class-kjm-admin-notices-shared.php:276
+#, php-format
+msgid "by %s"
+msgstr "par %s"
+
+#: includes/class-kjm-admin-notices-shared.php:320
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-kjm-admin-notices-shared.php:340
+msgid "This notification has been sent by [kjm_website_domain]. "
+msgstr "Cette notification vous a été envoyée par [kjm_website_domain]. "
+
+#: includes/class-kjm-admin-notices-shared.php:341
+msgid "Address to connect to your site:"
+msgstr "Adresse pour vous connecter à votre site :"
+
+#: includes/class-kjm-admin-notices-shared.php:341
+msgid "Login"
+msgstr "Connexion"
+
+#: includes/models/post-type-kjm_notice.php:10
+#: includes/models/post-type-kjm_notice.php:22
+msgid "Notices"
+msgstr "Notices"
+
+#: includes/models/post-type-kjm_notice.php:11
+msgid "Notice"
+msgstr "Notice"
+
+#: includes/models/post-type-kjm_notice.php:12
+#: includes/models/post-type-kjm_notice.php:13
+msgid "Add Notice"
+msgstr "Ajouter une Notice"
+
+#: includes/models/post-type-kjm_notice.php:15
+msgid "New Notice"
+msgstr "Nouvelle Notice"
+
+#: includes/models/post-type-kjm_notice.php:16
+msgid "All Notices"
+msgstr "Toutes les Notices"
+
+#: includes/models/post-type-kjm_notice.php:17
+msgid "View Notice"
+msgstr "Voir la Notice"
+
+#: includes/models/post-type-kjm_notice.php:18
+msgid "Search Notices"
+msgstr "Rechercher dans les Notice"
+
+#: includes/models/post-type-kjm_notice.php:19
+msgid "No Notice found"
+msgstr "Aucune Notice trouvée"
+
+#: includes/models/post-type-kjm_notice.php:20
+msgid "No Notice found in trash"
+msgstr "Aucune Notice trouvée dans la corbeille"
+
+#: includes/models/post-type-kjm_notice.php:27
+msgid "Contains all Notices and their related data."
+msgstr "Contient toutes les Notices et leurs données liées."
+
+#: includes/models/strings-settings.php:12
+msgid "Check to activate KJM Admin Notices."
+msgstr "Cocher pour activer Admin Notices."
+
+#: includes/models/strings-settings.php:14
+msgid "Notice Post Type"
+msgstr "Post Type Notice"
+
+#: includes/models/strings-settings.php:15
+msgid "Check to activate Notice Post Type."
+msgstr "Cocher pour activer le Post Type Notice."
+
+#: includes/models/strings-settings.php:18
+msgid "Check to send email to users on publish."
+msgstr "Cocher pour activer l'envoi de courriels lors de la publication."
+
+#: includes/models/strings-settings.php:20
+msgid "Email From"
+msgstr "Courriels de (adresse)"
+
+#: includes/models/strings-settings.php:21
+msgid "Leave empty for emails sent by \"wordpress@yourdomain.com\"."
+msgstr ""
+"Laisser vide pour des courriels envoyés par \"wordpress@yourdomain.com\"."
+
+#: includes/models/strings-settings.php:23
+msgid "Email From Name"
+msgstr "Courriels de (nom)"
+
+#: includes/models/strings-settings.php:24
+msgid "Leave empty for emails sent from \"WordPress\"."
+msgstr "Laisser vide pour des courriels envoyés au nom de \"WordPress\"."
+
+#: includes/models/strings-settings.php:26
+msgid "Allow Comments"
+msgstr "Autoriser les commentaires"
+
+#: includes/models/strings-settings.php:27
+msgid "Check to activate comments system."
+msgstr "Cocher pour activer les commentaires."
+
+#: includes/models/strings-settings.php:29
+msgid "Allow Role or Capability to Edit"
+msgstr "Permettre au Rôle ou Capacité d'éditer"
+
+#: includes/models/strings-settings.php:30
+msgid ""
+"Allow Role or Capability to Edit and Post Notices (default : \"administrator"
+"\")."
+msgstr ""
+"Permettre au Rôle ou à la Capacité d'éditer et de publier des Notices (par "
+"défaut : \"administrator\")."
+
+#: includes/models/strings-settings.php:33
+msgid "Frontend Notices"
+msgstr "Notices Frontend"
+
+#: includes/models/strings-settings.php:34
+msgid "Check to allow frontend notices display."
+msgstr "Cochez pour permettre l'affichage des avis en frontend."
+
+#: includes/models/strings-settings.php:36
+msgid "Display Over Content"
+msgstr "Afficher sur le contenu"
+
+#: includes/models/strings-settings.php:37
+msgid "Display frontend notices over content."
+msgstr "Afficher les notices en frontend  par-dessus le contenu."
+
+#: includes/models/strings-settings.php:39
+msgid "Notice Layout Display"
+msgstr "Mise en forme des notices"
+
+#: includes/models/strings-settings.php:40
+msgid ""
+"Possibles values are \"default\" (compact) and \"post\" (post style). "
+"Default value if empty : \"default\"."
+msgstr ""
+"Les valeurs possibles sont \"default\" (compact) et \"post\" (style de "
+"post). Valeur par défaut si vide: \"default\"."
+
+#: includes/models/strings-settings.php:42
+msgid "Show Notices on Pages"
+msgstr "Afficher les avis sur les pages"
+
+#: includes/models/strings-settings.php:43
+msgid ""
+"List of Pages where the notices should display. Other pages will never "
+"display a notice. This param will take precedence on the \"hide\" one. "
+"Separate multiples pages with a comma like this : \"1,23,456\"."
+msgstr ""
+"Liste des pages où les avis doivent s'afficher. Les autres pages "
+"n'afficheront jamais un avis. Ce paramètre aura la priorité sur celui "
+"\"cacher\". Séparez les pages multiples avec une virgule comme ceci: "
+"\"1,23,456\"."
+
+#: includes/models/strings-settings.php:45
+msgid "Hide Notices on Pages"
+msgstr "Masquer les avis sur les pages"
+
+#: includes/models/strings-settings.php:46
+msgid ""
+"List of Pages where the notices should NEVER display. Separate multiples "
+"pages with a comma like this : \"1,23,456\"."
+msgstr ""
+"Liste des pages où les avis ne doivent JAMAIS être affichés. Séparez "
+"plusieurs pages avec une virgule comme ceci: \"1,23,456\"."
+
+#: includes/models/strings-settings.php:49
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: includes/models/strings-settings.php:50
+msgid "Check to enable stats features."
+msgstr "Cochez pour activer les fonctionnalités de statistiques."
+
+#: includes/models/strings-settings.php:52
+msgid "Exclude SuperAdmin"
+msgstr "Exclure SuperAdmin"
+
+#: includes/models/strings-settings.php:53
+msgid "Check to exclude superadmin user views from statistics."
+msgstr "Cochez pour exclure les vues utilisateur superadmin des statistiques."
+
+#: includes/models/strings-settings.php:55
+msgid "Exclude Author"
+msgstr "Exclure l'auteur"
+
+#: includes/models/strings-settings.php:56
+msgid "Check to exclude notice author views from statistics."
+msgstr "Cochez pour exclure les vues de l'auteur de l'avis des statistiques."
+
+#: includes/models/strings-settings.php:59
+msgid "Advanced"
+msgstr "Avancé"
+
+#: includes/models/strings-settings.php:60
+msgid "Some advanced plugin's features."
+msgstr "Quelques fonctionnalités avancées du plugin."
+
+#: includes/models/strings-settings.php:62
+msgid "Compatibility"
+msgstr "Compatibilité"
+
+#: includes/models/strings-settings.php:63
+msgid "Check compatibility status with third-party plugins."
+msgstr "Vérifiez le statut de compatibilité avec les plugins tiers."
+
+#: includes/models/strings-settings.php:65
+msgid "KJM Search Log"
+msgstr "KJM Search Log"
+
+#: includes/models/strings-settings.php:66
+msgid ""
+"Plugin's official page <a target=\"_blank\" href=\"https://www.kajoom.ca/"
+"produits/kjm-search-log-plugin-for-wordpress/\">here</a>."
+msgstr ""
+"Page officielle du plugin <a target=\"_blank\" href=\"https://www.kajoom.ca/"
+"produits/kjm-search-log-plugin-for-wordpress/\">ici</a>."
+
+#: includes/models/strings-settings.php:68
+msgid "KJM Avia Form CPT"
+msgstr "KJM Avia Form CPT"
+
+#: includes/models/strings-settings.php:69
+msgid ""
+"Plugin's official page <a target=\"_blank\" href=\"https://www.kajoom.ca/"
+"produits/kjm-avia-form-cpt-plugin-for-wordpress/\">here</a>."
+msgstr ""
+"Page officielle du plugin <a target=\"_blank\" href=\"https://www.kajoom.ca/"
+"produits/kjm-avia-form-cpt-plugin-for-wordpress/\">ici</a>."
+
+#: includes/models/strings-settings.php:71
+msgid "Kajoom Framework"
+msgstr "Kajoom Framework"
+
+#: includes/models/strings-settings.php:72
+msgid ""
+"Plugin's official page <a target=\"_blank\" href=\"https://www.kajoom.ca/"
+"produits/kajoom-framework-plugin-for-wordpress/\">here</a>."
+msgstr ""
+"Page officielle du plugin <a target=\"_blank\" href=\"https://www.kajoom.ca/"
+"produits/kajoom-framework-plugin-for-wordpress/\">ici</a>."
+
+#: includes/models/strings-settings.php:75
+msgid ""
+"Plugin's official page <a target=\"_blank\" href=\"https://wordpress.org/"
+"plugins/archived-post-status/\">here</a>."
+msgstr ""
+"Page officielle du plugin <a target=\"_blank\" href=\"https://wordpress.org/"
+"plugins/archived-post-status/\">ici</a>."
+
+#: includes/models/strings-settings.php:77
+msgid "Updater"
+msgstr "Mise à jour"
+
+#: includes/models/strings-settings.php:78
+msgid "Use custom updater."
+msgstr "Utilisez un programme de mise à jour personnalisé."
+
+#: includes/models/strings-settings.php:80
+msgid "Use our External Updater"
+msgstr "Utilisez notre programme de mise à jour externe"
+
+#: includes/models/strings-settings.php:81
+msgid ""
+"Check to use the External Updater. <br>In order to check for new updates, "
+"occasional requests will be sent to our servers. Requests are secured with "
+"HTTPS and we do not track personal data. See our <a href=\"https://www."
+"kajoom.ca/a-propos/conditions-dutilisation\" target=\"_new\">Terms of use</"
+"a> (in french). Check out our <a href=\"https://www.kajoom.ca/a-propos/"
+"politique-de-confidentialite\" target=\"_new\">Privacy Policy</a> (in "
+"french)."
+msgstr ""
+"Cochez pour utiliser le programme de mise à jour externe. <br>Afin de "
+"vérifier les nouvelles mises à jour, des demandes occasionnelles seront "
+"envoyées à nos serveurs. Les demandes sont sécurisées avec HTTPS et nous ne "
+"suivons pas les données personnelles. Consultez nos <a href=\"https://www."
+"kajoom.ca/a-propos/conditions-dutilisation\" target=\"_new\">Conditions "
+"d'utilisation</a>. Consultez notre <a href=\"https://www.kajoom.ca/a-propos/"
+"politique-de-confidentialite\" target=\"_new\">Politique de confidentialité</"
+"a>."
+
+#: includes/models/strings-settings.php:84
+msgid "wordpress_version"
+msgstr "Version de WordPress"
+
+#: includes/models/strings-settings.php:85
+msgid "active_plugins"
+msgstr "Plugins actifs"
+
+#: includes/models/strings-settings.php:86
+msgid "theme"
+msgstr "Thème"
+
+#: includes/models/strings-settings.php:87
+msgid "child_theme"
+msgstr "Thème-enfant"
+
+#: includes/models/strings-settings.php:89
+msgid "Sent"
+msgstr "Envoyé"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:10
+#: includes/models/taxonomy-kjm_notice_cat.php:20
+#: includes/models/taxonomy-kjm_notice_cat.php:26
+msgid "Notice Cats"
+msgstr "Catégories de Notices"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:11
+msgid "Notice Cat"
+msgstr "Catégorie de Notice"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:12
+msgid "Search Notice Cat"
+msgstr "Rechercher la Catégorie de Notice"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:13
+msgid "All Notice Cats"
+msgstr "Toutes les Catégories de Notices"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:14
+msgid "Parent Notice Cat"
+msgstr "Catégorie de Notice parente"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:15
+msgid "Parent Notice Cat:"
+msgstr "Catégorie de Notice parente : "
+
+#: includes/models/taxonomy-kjm_notice_cat.php:16
+msgid "Edit Notice Cat"
+msgstr "Modifier la Catégorie de Notice"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:17
+msgid "Update Notice Cat"
+msgstr "Mettre  à jour la Catégorie de Notice"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:18
+msgid "Add New Notice Cat"
+msgstr "Ajouter une Catégorie de Notice"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:19
+msgid "New Notice Cat"
+msgstr "Nouvelle Catégorie de Notice"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:10
+#: includes/models/taxonomy-kjm_notice_tag.php:20
+#: includes/models/taxonomy-kjm_notice_tag.php:26
+msgid "Notices Tags"
+msgstr "Tags de Notices"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:11
+msgid "Notice Tag"
+msgstr "Tag de Notice"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:12
+msgid "Search Notice Tags"
+msgstr "Rechercher dans les Tags de Notices"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:13
+msgid "All Notices Tags"
+msgstr "Tous les Tags de Notices"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:14
+msgid "Parent Notice Tag"
+msgstr "Tag de Notice parent"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:15
+msgid "Parent Notice Tag:"
+msgstr "Tag de Notice parent : "
+
+#: includes/models/taxonomy-kjm_notice_tag.php:16
+msgid "Edit Notice Tag"
+msgstr "Modifier le Tag de Notice"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:17
+msgid "Update Notice Tag"
+msgstr "Mettre à jour le Tag de Notice"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:18
+msgid "Add New Notice Tag"
+msgstr "Ajouter un Tag de Notice"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:19
+msgid "New Notice Tag Name"
+msgstr "Nouveau Tag de Notice"
+
+#: includes/wp-archived-post-status-functions.php:285
+msgid ""
+"You can't edit this item because it has been Archived. Please change the "
+"post status and try again."
+msgstr ""
+"Vous ne pouvez pas modifier cet élément car il a été archivé. Veuillez "
+"modifier le statut de la publication et réessayer."
+
+#~ msgid "Notice Color"
+#~ msgstr "Avis couleur"
+
+#~ msgid "Unpublished"
+#~ msgstr "Dépubliée"
+
+#~ msgid "Save and keep Unpublished"
+#~ msgstr "Enregistrer et garder dépublié"
+
+#~ msgid "Unpublished <span class=\"count\">(%1$s)</span>"
+#~ msgstr "<span class=\"count\">(%1$s) dépubliée(s)</span>"
+
+#~ msgid "Modify Notice"
+#~ msgstr "Modifier la Notice"

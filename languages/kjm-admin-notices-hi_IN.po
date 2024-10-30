@@ -1,0 +1,491 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KJM Admin Notices v1.1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-15 15:59-0400\n"
+"PO-Revision-Date: 2018-12-12 13:10:10+0000\n"
+"Last-Translator: admin <hiral.parmar@kajoom.ca>\n"
+"Language-Team: Hindi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/class-kjm-admin-notices-admin.php:466
+#@ kjm-admin-notices
+msgid "KJM Admin Notices settings saved."
+msgstr "केजेएम व्यवस्थापक नोटिस सेटिंग्स सहेजा गया।"
+
+#: admin/class-kjm-admin-notices-admin.php:469
+#@ kjm-admin-notices
+msgid "KJM Admin Notices settings saving failed!."
+msgstr "केजेएम व्यवस्थापक नोटिस सेटिंग्स की बचत विफल!"
+
+#: admin/class-kjm-admin-notices-admin.php:496
+#@ kjm-admin-notices
+msgid "Failed security check on KJM Admin Notices Settings save action."
+msgstr "केजेएम व्यवस्थापक नोटिस सेटिंग्स पर असफल सुरक्षा जांच कार्रवाई को बचाएं।"
+
+#: admin/class-kjm-admin-notices-admin.php:497
+#@ kjm-admin-notices
+msgid "Failed security check!"
+msgstr "असफल सुरक्षा जांच!"
+
+#: admin/class-kjm-admin-notices-admin.php:521
+#@ kjm-admin-notices
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: admin/class-kjm-admin-notices-admin.php:726
+#, php-format
+#@ default
+msgid "%1$s"
+msgstr ""
+
+#: admin/class-kjm-admin-notices-admin.php:729
+#: public/class-kjm-admin-notices-public.php:237
+#@ kjm-admin-notices
+msgid "Thanks, Got it."
+msgstr "धन्यवाद, समझ गया।"
+
+#: includes/class-kjm-admin-notices-shared.php:222
+#: includes/models/post-type-kjm_notice.php:14
+#@ kjm-admin-notices
+msgid "Edit Notice"
+msgstr "सूचना संपादित करें"
+
+#: admin/class-kjm-admin-notices-admin.php:867
+#: includes/class-kjm-admin-notices-shared.php:276
+#@ kjm-admin-notices
+msgid "This notification has been sent by [kjm_website_domain]. "
+msgstr "यह अधिसूचना [kjm_website_domain] द्वारा भेजी गई है।"
+
+#: admin/class-kjm-admin-notices-admin.php:868
+#: includes/class-kjm-admin-notices-shared.php:277
+#@ kjm-admin-notices
+msgid "Address to connect to your site:"
+msgstr "अपनी साइट से कनेक्ट करने के लिए पता:"
+
+#: admin/class-kjm-admin-notices-admin.php:868
+#: includes/class-kjm-admin-notices-shared.php:277
+#@ kjm-admin-notices
+msgid "Login"
+msgstr "लॉग इन करें"
+
+#: admin/class-kjm-admin-notices-admin.php:909
+#@ kjm-admin-notices
+msgid "Sent"
+msgstr "भेज दिया"
+
+#: admin/class-kjm-admin-notices-admin.php:1074
+#@ kjm-admin-notices
+msgid "All"
+msgstr "सब"
+
+#: admin/class-kjm-admin-notices-admin.php:999
+#: admin/class-kjm-admin-notices-admin.php:1111
+#: includes/models/strings-settings.php:17
+#@ kjm-admin-notices
+msgid "Send Email"
+msgstr "ईमेल भेजें"
+
+#: admin/class-kjm-admin-notices-admin.php:1115
+#@ kjm-admin-notices
+msgid "Send a copy to Admin"
+msgstr "व्यवस्थापक को एक प्रति भेजें"
+
+#: admin/class-kjm-admin-notices-admin.php:1134
+#@ kjm-admin-notices
+msgid "Hide Title"
+msgstr "शीर्षक छुपाएं"
+
+#: admin/class-kjm-admin-notices-admin.php:1138
+#@ kjm-admin-notices
+msgid "Hide Metas (author and date)"
+msgstr "मेटा छुपाएं (लेखक और दिनांक)"
+
+#: admin/class-kjm-admin-notices-admin.php:1142
+#@ kjm-admin-notices
+msgid "Hide Dismiss Link"
+msgstr "डिसमिस लिंक छुपाएं"
+
+#: admin/class-kjm-admin-notices-admin.php:1220
+#@ default
+msgid "no"
+msgstr "नहीं"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:19
+#@ kjm-admin-notices
+msgid "You do not have sufficient permissions to access this page."
+msgstr "आपके पास इस पृष्ठ तक पहुंचने के लिए पर्याप्त अनुमति नहीं है।"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:43
+#@ kjm-admin-notices
+msgid "KJM Admin Notices Settings"
+msgstr "केजेएम व्यवस्थापक नोटिस सेटिंग्स"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:48
+#@ kjm-admin-notices
+msgid "Manage KJM Admin Notices"
+msgstr "केजेएम व्यवस्थापक नोटिस प्रबंधित करें"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:69
+#@ kjm-admin-notices
+msgid "Save Changes"
+msgstr "परिवर्तनों को सुरक्षित करें"
+
+#: includes/models/post-type-kjm_notice.php:10
+#: includes/models/post-type-kjm_notice.php:22
+#@ kjm-admin-notices
+msgid "Notices"
+msgstr "नोटिस"
+
+#: includes/models/post-type-kjm_notice.php:11
+#@ kjm-admin-notices
+msgid "Notice"
+msgstr "नोटिस"
+
+#: includes/models/post-type-kjm_notice.php:12
+#: includes/models/post-type-kjm_notice.php:13
+#@ kjm-admin-notices
+msgid "Add Notice"
+msgstr "सूचना जोड़ें"
+
+#: includes/models/post-type-kjm_notice.php:15
+#@ kjm-admin-notices
+msgid "New Notice"
+msgstr "नई सूचना"
+
+#: includes/models/post-type-kjm_notice.php:16
+#@ kjm-admin-notices
+msgid "All Notices"
+msgstr "सभी नोटिस"
+
+#: includes/models/post-type-kjm_notice.php:17
+#@ kjm-admin-notices
+msgid "View Notice"
+msgstr "नोटिस देखें"
+
+#: includes/models/post-type-kjm_notice.php:18
+#@ kjm-admin-notices
+msgid "Search Notices"
+msgstr "नोटिस खोजें"
+
+#: includes/models/post-type-kjm_notice.php:19
+#@ kjm-admin-notices
+msgid "No Notice found"
+msgstr "कोई सूचना नहीं मिली"
+
+#: includes/models/post-type-kjm_notice.php:20
+#@ kjm-admin-notices
+msgid "No Notice found in trash"
+msgstr "ट्रैश में कोई सूचना नहीं मिली"
+
+#: includes/models/post-type-kjm_notice.php:27
+#@ kjm-admin-notices
+msgid "Contains all Notices and their related data."
+msgstr "सभी नोटिस और उनके संबंधित डेटा शामिल हैं।"
+
+#. translators: plugin header field 'Name'
+#: admin/class-kjm-admin-notices-admin.php:542
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:37
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+#: includes/models/strings-settings.php:11
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+#@ default
+msgid "KJM Admin Notices"
+msgstr "KJM प्रशासन नोटिस"
+
+#: includes/models/strings-settings.php:12
+#@ kjm-admin-notices
+msgid "Check to activate KJM Admin Notices."
+msgstr "केजेएम व्यवस्थापक नोटिस को सक्रिय करने के लिए जांचें।"
+
+#: includes/models/strings-settings.php:14
+#@ kjm-admin-notices
+msgid "Notice Post Type"
+msgstr "नोटिस पोस्ट प्रकार"
+
+#: includes/models/strings-settings.php:15
+#@ kjm-admin-notices
+msgid "Check to activate Notice Post Type."
+msgstr "नोटिस पोस्ट प्रकार को सक्रिय करने के लिए जांचें।"
+
+#: includes/models/strings-settings.php:18
+#@ kjm-admin-notices
+msgid "Check to send email to users on publish."
+msgstr "प्रकाशित करने के लिए उपयोगकर्ताओं को ईमेल भेजने के लिए जांचें।"
+
+#: includes/models/strings-settings.php:20
+#@ kjm-admin-notices
+msgid "Email From"
+msgstr "की ओर से ईमेल"
+
+#: includes/models/strings-settings.php:21
+#@ kjm-admin-notices
+msgid "Leave empty for emails sent by \"wordpress@yourdomain.com\"."
+msgstr "\"Wordpress@yourdomain.com\" द्वारा भेजे गए ईमेल के लिए खाली छोड़ दें।"
+
+#: includes/models/strings-settings.php:23
+#@ kjm-admin-notices
+msgid "Email From Name"
+msgstr "नाम से ईमेल"
+
+#: includes/models/strings-settings.php:24
+#@ kjm-admin-notices
+msgid "Leave empty for emails sent from \"WordPress\"."
+msgstr "\"वर्डप्रेस\" से भेजे गए ईमेल के लिए खाली छोड़ दें।"
+
+#: includes/models/strings-settings.php:26
+#@ kjm-admin-notices
+msgid "Allow Comments"
+msgstr "टिप्पणियों की अनुमति दें"
+
+#: includes/models/strings-settings.php:27
+#@ kjm-admin-notices
+msgid "Check to activate comments system."
+msgstr "टिप्पणी प्रणाली को सक्रिय करने के लिए जांचें।"
+
+#: includes/models/strings-settings.php:29
+#@ kjm-admin-notices
+msgid "Allow Role or Capability to Edit"
+msgstr "भूमिका या क्षमता को संपादित करने की अनुमति दें"
+
+#: includes/models/strings-settings.php:30
+#@ kjm-admin-notices
+msgid "Allow Role or Capability to Edit and Post Notices (default : \"administrator\")."
+msgstr "भूमिका या क्षमता को संपादित करने और नोटिस पोस्ट करने की अनुमति दें (डिफ़ॉल्ट: \"व्यवस्थापक\")।"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:10
+#: includes/models/taxonomy-kjm_notice_cat.php:20
+#: includes/models/taxonomy-kjm_notice_cat.php:26
+#@ kjm-admin-notices
+msgid "Notice Cats"
+msgstr "नोटिस श्रेणियाँ"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:11
+#@ kjm-admin-notices
+msgid "Notice Cat"
+msgstr "नोटिस श्रेणी"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:12
+#@ kjm-admin-notices
+msgid "Search Notice Cat"
+msgstr "खोज सूचना श्रेणी"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:13
+#@ kjm-admin-notices
+msgid "All Notice Cats"
+msgstr "सभी सूचना श्रेणियाँ"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:14
+#@ kjm-admin-notices
+msgid "Parent Notice Cat"
+msgstr "अभिभावक सूचना श्रेणी"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:15
+#@ kjm-admin-notices
+msgid "Parent Notice Cat:"
+msgstr "अभिभावक सूचना श्रेणी:"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:16
+#@ kjm-admin-notices
+msgid "Edit Notice Cat"
+msgstr "नोटिस श्रेणी संपादित करें"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:17
+#@ kjm-admin-notices
+msgid "Update Notice Cat"
+msgstr "नोटिस श्रेणी अद्यतन करें"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:18
+#@ kjm-admin-notices
+msgid "Add New Notice Cat"
+msgstr "नई सूचना श्रेणी जोड़ें"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:19
+#@ kjm-admin-notices
+msgid "New Notice Cat"
+msgstr "नई सूचना श्रेणी"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:10
+#: includes/models/taxonomy-kjm_notice_tag.php:20
+#: includes/models/taxonomy-kjm_notice_tag.php:26
+#@ kjm-admin-notices
+msgid "Notices Tags"
+msgstr "नोटिस टैग"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:11
+#@ kjm-admin-notices
+msgid "Notice Tag"
+msgstr "नोटिस टैग"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:12
+#@ kjm-admin-notices
+msgid "Search Notice Tags"
+msgstr "नोटिस टैग खोजें"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:13
+#@ kjm-admin-notices
+msgid "All Notices Tags"
+msgstr "सभी नोटिस टैग"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:14
+#@ kjm-admin-notices
+msgid "Parent Notice Tag"
+msgstr "अभिभावक नोटिस टैग"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:15
+#@ kjm-admin-notices
+msgid "Parent Notice Tag:"
+msgstr "अभिभावक नोटिस टैग:"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:16
+#@ kjm-admin-notices
+msgid "Edit Notice Tag"
+msgstr "नोटिस टैग संपादित करें"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:17
+#@ kjm-admin-notices
+msgid "Update Notice Tag"
+msgstr "नोटिस टैग अपडेट करें"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:18
+#@ kjm-admin-notices
+msgid "Add New Notice Tag"
+msgstr "नया नोटिस टैग जोड़ें"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:19
+#@ kjm-admin-notices
+msgid "New Notice Tag Name"
+msgstr "नई सूचना टैग नाम"
+
+#: admin/class-kjm-admin-notices-admin.php:989
+#@ kjm-admin-notices
+msgid "Show Notice To Roles"
+msgstr "भूमिकाओं के लिए नोटिस दिखाएं"
+
+#: admin/class-kjm-admin-notices-admin.php:1009
+#@ kjm-admin-notices
+msgid "Notice Display"
+msgstr "प्रदर्शन सूचना"
+
+#: admin/class-kjm-admin-notices-admin.php:1018
+#@ kjm-admin-notices
+msgid "Global Params"
+msgstr "वैश्विक पैरामीटर"
+
+#: admin/class-kjm-admin-notices-admin.php:1037
+#@ kjm-admin-notices
+msgid "Debug"
+msgstr "दोषमार्जन"
+
+#: admin/class-kjm-admin-notices-admin.php:1145
+#@ kjm-admin-notices
+msgid "Custom Background Color"
+msgstr "कस्टम पृष्ठभूमि रंग"
+
+#: admin/class-kjm-admin-notices-admin.php:1150
+#@ kjm-admin-notices
+msgid "Custom Text Color"
+msgstr "कस्टम पाठ रंग"
+
+#: admin/class-kjm-admin-notices-admin.php:1161
+#@ kjm-admin-notices
+msgid "Show Notice to Frontend"
+msgstr "फ्रंटेंड को नोटिस दिखाएं"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+#@ default
+msgid "You are using"
+msgstr ""
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+#@ default
+msgid "plugin version"
+msgstr ""
+
+#: includes/class-kjm-admin-notices-shared.php:229
+#, php-format
+#@ kjm-admin-notices
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "% s पहले"
+
+#: includes/class-kjm-admin-notices-shared.php:229
+#, php-format
+#@ kjm-admin-notices
+msgctxt "%s = author display name"
+msgid "by %s"
+msgstr "% s द्वारा"
+
+#: includes/models/strings-settings.php:33
+#@ kjm-admin-notices
+msgid "Frontend Notices"
+msgstr "फ्रंटेंड नोटिस"
+
+#: includes/models/strings-settings.php:34
+#@ kjm-admin-notices
+msgid "Check to allow frontend notices display."
+msgstr "फ्रंटेंड नोटिस प्रदर्शित करने की अनुमति देने के लिए जांचें।"
+
+#: includes/models/strings-settings.php:36
+#@ kjm-admin-notices
+msgid "Display Over Content"
+msgstr "सामग्री पर प्रदर्शित करें"
+
+#: includes/models/strings-settings.php:37
+#@ kjm-admin-notices
+msgid "Display frontend notices over content."
+msgstr "सामग्री पर फ्रंटेंड नोटिस प्रदर्शित करें।"
+
+#: includes/models/strings-settings.php:39
+#@ kjm-admin-notices
+msgid "Notice Layout Display"
+msgstr "नोटिस लेआउट डिस्प्ले"
+
+#: includes/models/strings-settings.php:40
+#@ kjm-admin-notices
+msgid "Possibles values are \"default\" (compact) and \"post\" (post style). Default value if empty : \"default\"."
+msgstr "Possibles values are \"default\" (compact) and \"post\" (post style). Default value if empty : \"default\"."
+
+#: includes/models/taxonomy-kjm_notice_color.php:26
+#@ textdomain
+msgid "Notice Color"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "https://www.kajoom.ca/"
+msgstr "https://www.kajoom.ca/"
+
+#. translators: plugin header field 'Description'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "Create, manage and display nice custom dismissible notices to admin users."
+msgstr "व्यवस्थापक उपयोगकर्ताओं को अच्छी कस्टम अस्वीकार्य नोटिस बनाएं, प्रबंधित करें और प्रदर्शित करें।"
+
+#. translators: plugin header field 'Author'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "Marc-Antoine Minville"
+msgstr "मार्क-एंटोनी मिनविले"
+
+#. translators: plugin header field 'Version'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "1.1.9"
+msgstr "1.1.9"
+

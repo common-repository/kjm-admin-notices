@@ -1,0 +1,491 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KJM Admin Notices v1.1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-15 15:59-0400\n"
+"PO-Revision-Date: 2018-12-12 13:19:38+0000\n"
+"Last-Translator: admin <hiral.parmar@kajoom.ca>\n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/class-kjm-admin-notices-admin.php:466
+#@ kjm-admin-notices
+msgid "KJM Admin Notices settings saved."
+msgstr "تم حفظ إعدادات إشعارات إدارة KJM."
+
+#: admin/class-kjm-admin-notices-admin.php:469
+#@ kjm-admin-notices
+msgid "KJM Admin Notices settings saving failed!."
+msgstr "فشل حفظ إعدادات إشعارات إدارة KJM !."
+
+#: admin/class-kjm-admin-notices-admin.php:496
+#@ kjm-admin-notices
+msgid "Failed security check on KJM Admin Notices Settings save action."
+msgstr "فشل التحقق الأمني من إعدادات إشعارات إدارة KJM في الإجراء."
+
+#: admin/class-kjm-admin-notices-admin.php:497
+#@ kjm-admin-notices
+msgid "Failed security check!"
+msgstr "فشل التحقق الأمني!"
+
+#: admin/class-kjm-admin-notices-admin.php:521
+#@ kjm-admin-notices
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: admin/class-kjm-admin-notices-admin.php:726
+#, php-format
+#@ default
+msgid "%1$s"
+msgstr "٪ 1 $ S"
+
+#: admin/class-kjm-admin-notices-admin.php:729
+#: public/class-kjm-admin-notices-public.php:237
+#@ kjm-admin-notices
+msgid "Thanks, Got it."
+msgstr "شكرا ، فهمت."
+
+#: includes/class-kjm-admin-notices-shared.php:222
+#: includes/models/post-type-kjm_notice.php:14
+#@ kjm-admin-notices
+msgid "Edit Notice"
+msgstr "تحرير إشعار"
+
+#: admin/class-kjm-admin-notices-admin.php:867
+#: includes/class-kjm-admin-notices-shared.php:276
+#@ kjm-admin-notices
+msgid "This notification has been sent by [kjm_website_domain]. "
+msgstr "تم إرسال هذا الإشعار بواسطة [kjm_website_domain]."
+
+#: admin/class-kjm-admin-notices-admin.php:868
+#: includes/class-kjm-admin-notices-shared.php:277
+#@ kjm-admin-notices
+msgid "Address to connect to your site:"
+msgstr "العنوان للاتصال بموقعك:"
+
+#: admin/class-kjm-admin-notices-admin.php:868
+#: includes/class-kjm-admin-notices-shared.php:277
+#@ kjm-admin-notices
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: admin/class-kjm-admin-notices-admin.php:909
+#@ kjm-admin-notices
+msgid "Sent"
+msgstr "أرسلت"
+
+#: admin/class-kjm-admin-notices-admin.php:1074
+#@ kjm-admin-notices
+msgid "All"
+msgstr "الكل"
+
+#: admin/class-kjm-admin-notices-admin.php:999
+#: admin/class-kjm-admin-notices-admin.php:1111
+#: includes/models/strings-settings.php:17
+#@ kjm-admin-notices
+msgid "Send Email"
+msgstr "ارسل بريد الكتروني"
+
+#: admin/class-kjm-admin-notices-admin.php:1115
+#@ kjm-admin-notices
+msgid "Send a copy to Admin"
+msgstr "إرسال نسخة إلى المسؤول"
+
+#: admin/class-kjm-admin-notices-admin.php:1134
+#@ kjm-admin-notices
+msgid "Hide Title"
+msgstr "إخفاء العنوان"
+
+#: admin/class-kjm-admin-notices-admin.php:1138
+#@ kjm-admin-notices
+msgid "Hide Metas (author and date)"
+msgstr "إخفاء ميتاس (المؤلف والتاريخ)"
+
+#: admin/class-kjm-admin-notices-admin.php:1142
+#@ kjm-admin-notices
+msgid "Hide Dismiss Link"
+msgstr "إخفاء إلغاء الارتباط"
+
+#: admin/class-kjm-admin-notices-admin.php:1220
+#@ default
+msgid "no"
+msgstr "لا"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:19
+#@ kjm-admin-notices
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك أذونات كافية للوصول إلى هذه الصفحة."
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:43
+#@ kjm-admin-notices
+msgid "KJM Admin Notices Settings"
+msgstr "إعدادات إشعارات المسؤول KJM"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:48
+#@ kjm-admin-notices
+msgid "Manage KJM Admin Notices"
+msgstr "إدارة إشعارات إدارة KJM"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:69
+#@ kjm-admin-notices
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: includes/models/post-type-kjm_notice.php:10
+#: includes/models/post-type-kjm_notice.php:22
+#@ kjm-admin-notices
+msgid "Notices"
+msgstr "إشعارات"
+
+#: includes/models/post-type-kjm_notice.php:11
+#@ kjm-admin-notices
+msgid "Notice"
+msgstr "تنويه"
+
+#: includes/models/post-type-kjm_notice.php:12
+#: includes/models/post-type-kjm_notice.php:13
+#@ kjm-admin-notices
+msgid "Add Notice"
+msgstr "إضافة إشعار"
+
+#: includes/models/post-type-kjm_notice.php:15
+#@ kjm-admin-notices
+msgid "New Notice"
+msgstr "إشعار جديد"
+
+#: includes/models/post-type-kjm_notice.php:16
+#@ kjm-admin-notices
+msgid "All Notices"
+msgstr "كل الإشعارات"
+
+#: includes/models/post-type-kjm_notice.php:17
+#@ kjm-admin-notices
+msgid "View Notice"
+msgstr "عرض إشعار"
+
+#: includes/models/post-type-kjm_notice.php:18
+#@ kjm-admin-notices
+msgid "Search Notices"
+msgstr "إخطارات البحث"
+
+#: includes/models/post-type-kjm_notice.php:19
+#@ kjm-admin-notices
+msgid "No Notice found"
+msgstr "لم يتم العثور على إشعار"
+
+#: includes/models/post-type-kjm_notice.php:20
+#@ kjm-admin-notices
+msgid "No Notice found in trash"
+msgstr "لم يتم العثور على إشعار في المهملات"
+
+#: includes/models/post-type-kjm_notice.php:27
+#@ kjm-admin-notices
+msgid "Contains all Notices and their related data."
+msgstr "يحتوي على جميع الإشعارات والبيانات المتعلقة بها."
+
+#. translators: plugin header field 'Name'
+#: admin/class-kjm-admin-notices-admin.php:542
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:37
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+#: includes/models/strings-settings.php:11
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+#@ default
+msgid "KJM Admin Notices"
+msgstr "إشعارات إدارة KJM"
+
+#: includes/models/strings-settings.php:12
+#@ kjm-admin-notices
+msgid "Check to activate KJM Admin Notices."
+msgstr "تحقق من تفعيل إشعارات إدارة KJM."
+
+#: includes/models/strings-settings.php:14
+#@ kjm-admin-notices
+msgid "Notice Post Type"
+msgstr "ملاحظة نشر نوع"
+
+#: includes/models/strings-settings.php:15
+#@ kjm-admin-notices
+msgid "Check to activate Notice Post Type."
+msgstr "تحقق لتفعيل تنبيه نشر نوع."
+
+#: includes/models/strings-settings.php:18
+#@ kjm-admin-notices
+msgid "Check to send email to users on publish."
+msgstr "حدد هذا الإعداد لإرسال بريد إلكتروني إلى المستخدمين أثناء النشر."
+
+#: includes/models/strings-settings.php:20
+#@ kjm-admin-notices
+msgid "Email From"
+msgstr "البريد الإلكتروني من"
+
+#: includes/models/strings-settings.php:21
+#@ kjm-admin-notices
+msgid "Leave empty for emails sent by \"wordpress@yourdomain.com\"."
+msgstr "اتركه خاليًا للرسائل الإلكترونية المرسلة من \"wordpress@yourdomain.com\"."
+
+#: includes/models/strings-settings.php:23
+#@ kjm-admin-notices
+msgid "Email From Name"
+msgstr "البريد الإلكتروني من الاسم"
+
+#: includes/models/strings-settings.php:24
+#@ kjm-admin-notices
+msgid "Leave empty for emails sent from \"WordPress\"."
+msgstr "اتركه فارغًا للرسائل الإلكترونية المرسلة من \"WordPress\"."
+
+#: includes/models/strings-settings.php:26
+#@ kjm-admin-notices
+msgid "Allow Comments"
+msgstr "السماح بالتعليقات"
+
+#: includes/models/strings-settings.php:27
+#@ kjm-admin-notices
+msgid "Check to activate comments system."
+msgstr "تحقق لتفعيل نظام التعليقات."
+
+#: includes/models/strings-settings.php:29
+#@ kjm-admin-notices
+msgid "Allow Role or Capability to Edit"
+msgstr "السماح بالدور أو القدرة على التحرير"
+
+#: includes/models/strings-settings.php:30
+#@ kjm-admin-notices
+msgid "Allow Role or Capability to Edit and Post Notices (default : \"administrator\")."
+msgstr "السماح بالدور أو القدرة على تحرير ونشر الإشعارات (الافتراضي: \"المسؤول\")."
+
+#: includes/models/taxonomy-kjm_notice_cat.php:10
+#: includes/models/taxonomy-kjm_notice_cat.php:20
+#: includes/models/taxonomy-kjm_notice_cat.php:26
+#@ kjm-admin-notices
+msgid "Notice Cats"
+msgstr "فئات الإخطار"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:11
+#@ kjm-admin-notices
+msgid "Notice Cat"
+msgstr "فئة الإخطار"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:12
+#@ kjm-admin-notices
+msgid "Search Notice Cat"
+msgstr "فئة إشعار البحث"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:13
+#@ kjm-admin-notices
+msgid "All Notice Cats"
+msgstr "كل القطط لاحظ"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:14
+#@ kjm-admin-notices
+msgid "Parent Notice Cat"
+msgstr "Parent Notice Category"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:15
+#@ kjm-admin-notices
+msgid "Parent Notice Cat:"
+msgstr "إشعار الآباء الفئة:"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:16
+#@ kjm-admin-notices
+msgid "Edit Notice Cat"
+msgstr "تحرير فئة الإخطار"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:17
+#@ kjm-admin-notices
+msgid "Update Notice Cat"
+msgstr "تحديث فئة الإخطار"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:18
+#@ kjm-admin-notices
+msgid "Add New Notice Cat"
+msgstr "إضافة فئة إشعار جديد"
+
+#: includes/models/taxonomy-kjm_notice_cat.php:19
+#@ kjm-admin-notices
+msgid "New Notice Cat"
+msgstr "فئة إشعار جديد"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:10
+#: includes/models/taxonomy-kjm_notice_tag.php:20
+#: includes/models/taxonomy-kjm_notice_tag.php:26
+#@ kjm-admin-notices
+msgid "Notices Tags"
+msgstr "إشعارات العلامات"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:11
+#@ kjm-admin-notices
+msgid "Notice Tag"
+msgstr "اشعار العلامة"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:12
+#@ kjm-admin-notices
+msgid "Search Notice Tags"
+msgstr "بحث اشعار العلامات"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:13
+#@ kjm-admin-notices
+msgid "All Notices Tags"
+msgstr "جميع الإشعارات العلامات"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:14
+#@ kjm-admin-notices
+msgid "Parent Notice Tag"
+msgstr "علامة إشعار الوالدين"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:15
+#@ kjm-admin-notices
+msgid "Parent Notice Tag:"
+msgstr "علامة إشعار الوالدين:"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:16
+#@ kjm-admin-notices
+msgid "Edit Notice Tag"
+msgstr "تحرير علامة التبليغ"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:17
+#@ kjm-admin-notices
+msgid "Update Notice Tag"
+msgstr "تحديث اشعار العلامة"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:18
+#@ kjm-admin-notices
+msgid "Add New Notice Tag"
+msgstr "إضافة علامة إشعار جديدة"
+
+#: includes/models/taxonomy-kjm_notice_tag.php:19
+#@ kjm-admin-notices
+msgid "New Notice Tag Name"
+msgstr "اسم العلامة الجديدة للإشعار"
+
+#: admin/class-kjm-admin-notices-admin.php:989
+#@ kjm-admin-notices
+msgid "Show Notice To Roles"
+msgstr "عرض إشعار إلى الأدوار"
+
+#: admin/class-kjm-admin-notices-admin.php:1009
+#@ kjm-admin-notices
+msgid "Notice Display"
+msgstr "إشعار العرض"
+
+#: admin/class-kjm-admin-notices-admin.php:1018
+#@ kjm-admin-notices
+msgid "Global Params"
+msgstr "بارامز العالمية"
+
+#: admin/class-kjm-admin-notices-admin.php:1037
+#@ kjm-admin-notices
+msgid "Debug"
+msgstr "التصحيح"
+
+#: admin/class-kjm-admin-notices-admin.php:1145
+#@ kjm-admin-notices
+msgid "Custom Background Color"
+msgstr "لون خلفية مخصص"
+
+#: admin/class-kjm-admin-notices-admin.php:1150
+#@ kjm-admin-notices
+msgid "Custom Text Color"
+msgstr "لون نص مخصص"
+
+#: admin/class-kjm-admin-notices-admin.php:1161
+#@ kjm-admin-notices
+msgid "Show Notice to Frontend"
+msgstr "Show Notice to Frontend"
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+#@ default
+msgid "You are using"
+msgstr ""
+
+#: admin/partials/kjm-admin-notices-admin-settings-display.php:49
+#@ default
+msgid "plugin version"
+msgstr ""
+
+#: includes/class-kjm-admin-notices-shared.php:229
+#, php-format
+#@ kjm-admin-notices
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "قبل %s"
+
+#: includes/class-kjm-admin-notices-shared.php:229
+#, php-format
+#@ kjm-admin-notices
+msgctxt "%s = author display name"
+msgid "by %s"
+msgstr "بواسطة %s"
+
+#: includes/models/strings-settings.php:33
+#@ kjm-admin-notices
+msgid "Frontend Notices"
+msgstr "إخطارات أمامية"
+
+#: includes/models/strings-settings.php:34
+#@ kjm-admin-notices
+msgid "Check to allow frontend notices display."
+msgstr "تحقق للسماح بعرض إشعارات الواجهة."
+
+#: includes/models/strings-settings.php:36
+#@ kjm-admin-notices
+msgid "Display Over Content"
+msgstr "عرض أكثر من المحتوى"
+
+#: includes/models/strings-settings.php:37
+#@ kjm-admin-notices
+msgid "Display frontend notices over content."
+msgstr "عرض إشعارات الواجهة على المحتوى."
+
+#: includes/models/strings-settings.php:39
+#@ kjm-admin-notices
+msgid "Notice Layout Display"
+msgstr "لاحظ تخطيط العرض"
+
+#: includes/models/strings-settings.php:40
+#@ kjm-admin-notices
+msgid "Possibles values are \"default\" (compact) and \"post\" (post style). Default value if empty : \"default\"."
+msgstr "Possibles values are \"default\" (compact) and \"post\" (post style). Default value if empty : \"default\"."
+
+#: includes/models/taxonomy-kjm_notice_color.php:26
+#@ textdomain
+msgid "Notice Color"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "https://www.kajoom.ca/"
+msgstr "https://www.kajoom.ca/"
+
+#. translators: plugin header field 'Description'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "Create, manage and display nice custom dismissible notices to admin users."
+msgstr "إنشاء وإدارة وعرض إشعارات رفض مخصصة لطيفة للمستخدمين الإداريين."
+
+#. translators: plugin header field 'Author'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "Marc-Antoine Minville"
+msgstr "مارك انطوان مينفيل"
+
+#. translators: plugin header field 'Version'
+#: kjm-admin-notices.php:0
+#@ kjm-admin-notices
+msgid "1.1.9"
+msgstr "1.1.9"
+
